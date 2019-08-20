@@ -1,0 +1,9 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: userzuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/
