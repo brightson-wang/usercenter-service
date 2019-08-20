@@ -12,6 +12,8 @@ public class UserDo {
     @Id
     @Column(name = "user_id")
     private Integer userId;
+    @Column(name = "user_code")
+    private String userCode;
     @Column(name = "user_name")
     private String userName;
 }
